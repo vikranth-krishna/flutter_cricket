@@ -1,16 +1,43 @@
-# cricketapp
+# Flutter Cricket App
 
-A new Flutter project.
+A Flutter-based Cricket Application that provides:
+- User authentication (Sign Up, Login).
+- Player management (Admin can add, edit, delete players).
+- Live cricket score carousel with match data (Admin can add, edit, delete live scores).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **User Management**: 
+  - Login and Sign Up functionality.
+  - Persistent user authentication using `SharedPreferences`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Admin Access**:
+  - Admin user (`operator@op.com` with password `123`) has access to:
+    - Add, edit, and delete players.
+    - Add, edit, and delete live cricket matches.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Live Matches Carousel**:
+  - Displays live cricket matches in a carousel viewer.
+  - Line charts from `syncfusion_flutter_charts` library to show score trends.
+
+---
+
+## Installation and Setup
+
+### Prerequisites
+
+- Flutter SDK installed (version `>=2.0`).
+- Android Studio or Visual Studio Code.
+
+### Steps
+
+Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/flutter_cricket_app.git
+
+### Admin Credentials
+Email: operator@op.com
+Password: 123
+   
